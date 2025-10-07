@@ -1,4 +1,3 @@
-export const config = { runtime: 'nodejs20.x' };
 import server from '../server.js';
 import {Readable} from 'node:stream';
 
