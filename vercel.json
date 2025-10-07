@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci",
+  "outputDirectory": ".react-router",
+  "functions": {
+    "api/index.js": {
+      "runtime": "edge"
+    }
+  },
+  "routes": [
+    { "src": "/api/.*", "dest": "/api/index.js" },
+    { "src": "/(.*)", "dest": "/api/index.js" }
+  ]
+}
+
+
