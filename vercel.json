@@ -5,7 +5,7 @@
   "outputDirectory": ".react-router",
   "functions": {
     "api/index.js": {
-      "runtime": "nodejs20.x"
+      "runtime": "edge"
     }
   },
   "routes": [
